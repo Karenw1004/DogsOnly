@@ -1,0 +1,22 @@
+<% include ../partials/header %>
+
+<div class="container">
+	<form action="/dogs" method="POST">
+		<div class="form-group">
+			<label for="formGroupExampleInput">Title</label>
+			<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter title input" name="title">
+		</div>
+		<div class="form-group">
+			<label for="formGroupExampleInput2">Image link</label>
+			<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter link" name="image">
+		</div>
+		<div class="form-group">
+			<button class="btn btn-lg btn-primary btn-block">Submit</button>
+		</div>
+		
+	</form>
+</div>
+
+
+
+<% include ../partials/footer %>
